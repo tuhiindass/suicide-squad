@@ -23,8 +23,9 @@ const Home = () => {
           onClick={getNews()}
           style={{
             padding: "16px",
-            color: "green",
+            color: "white",
             margin: "16px",
+            background:"blue",
           }}
         >
           GET ALL NEWS
@@ -38,6 +39,7 @@ const Home = () => {
               style={{
                 maxWidth: "360px",
                 margin: "auto",
+                textAlign:"start"
               }}
             >
               <img
